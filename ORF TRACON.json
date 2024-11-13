@@ -1,0 +1,133 @@
+{
+  "Name": "ORF TRACON",
+  "Composites": [
+    {
+      "Name": "Norfolk",
+      "Identifier": "KORF",
+      "Contractions": [],
+      "AtisFrequency": 27150,
+      "ObservationTime": {
+          "Enabled": false,
+          "Time": 0
+      },
+      "MagneticVariation": {
+          "Enabled": false,
+          "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+          "UseTextToSpeech": true,
+          "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+          {
+              "Name": "EAST VMC",
+              "AirportConditions": "ARR ACFT EXP VISUAL APCH RWY 5, DEPARTING RWY 5.",
+              "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+              "ArbitraryText": null,
+              "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+          },
+          {
+              "Name": "EAST IMC",
+              "AirportConditions": "ARR ACFT EXP ILS APCH RWY 5, DEPARTING RWY 5.",
+              "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+              "ArbitraryText": null,
+              "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+          },
+          {
+              "Name": "WEST VMC",
+              "AirportConditions": "ARR ACFT EXP VISUAL APCH RWY 23, DEPARTING RWY 23.",
+              "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+              "ArbitraryText": null,
+              "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+          },
+          {
+              "Name": "WEST IMC",
+              "AirportConditions": "ARR ACFT EXP ILS APCH RWY 23, DEPARTING RWY 23.",
+              "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+              "ArbitraryText": null,
+              "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+          }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+  },
+    {
+      "Name": "Newport News",
+      "Identifier": "KPHF",
+      "Contractions": [],
+      "AtisFrequency": 18000,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+        {
+          "Name": "NORTH",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 7. DEPG RWY 2.",
+          "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.  OPERATE MODE CHARLIE ON ALL RWYS AND TWYS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+        },
+        {
+          "Name": "SOUTH",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 25. DEPG RWY 20.",
+          "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.  OPERATE MODE CHARLIE ON ALL RWYS AND TWYS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Norfolk Chambers",
+      "Identifier": "KNGU",
+      "Contractions": [],
+      "AtisFrequency": 18425,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+        {
+          "Name": "EAST",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 10. DEPG RWY 10.",
+          "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+        },
+        {
+          "Name": "WEST",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR RNAV APCH RWY 28. DEPG RWY 28.",
+          "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

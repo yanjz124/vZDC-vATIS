@@ -1,0 +1,589 @@
+{
+    "Name": "ZDCv2",
+    "Composites": [
+        {
+            "Name": "Washington Reagan",
+            "Identifier": "KDCA",
+            "Contractions": [],
+            "AtisFrequency": 32650,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": false,
+                "MagneticDegrees": 0
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+            "Presets": [
+                {
+                    "Name": "NORTH VMC",
+                    "AirportConditions": "ARRIVALS EXPECTING MOUNT VERNON VISUAL RWY 1. LNDG AND DEPG RWYS 1, 33, 4. MULTIPLE APPROACHES BEING CONDUCTED TO INTERSECTING RWY. USE CAUTION",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY. DO NOT ENTER PROHIBITED AIRSPACE NORTH OF ARPT.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "NORTH IMC",
+                    "AirportConditions": "ARRIVALS EXPECT ILS RWY 1, RNAV RWY 33. LNDG AND DEPG RWYS 1, 4 AND 33. MULTIPLE APPROACHES BEING CONDUCTED TO INTERSECTING RWY. USE CAUTION",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY. DO NOT ENTER PROHIBITED AIRSPACE NORTH OF ARPT.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "SOUTH VMC",
+                    "AirportConditions": "ARRIVALS EXPECT RIVER VISUAL 19. LNDG AND DEPG RWYS 19, 15, 22. MULTIPLE APPROACHES BEING CONDUCTED TO INTERSECTING RWY. USE CAUTION.",
+                    "Notams": "RNP APCH ON REQUEST. READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY. DO NOT ENTER PROHIBITED AIRSPACE NORTH OF ARPT.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "SOUTH IMC",
+                    "AirportConditions": "ARRIVALS EXPECT RNAV OR LDA RWY 19, RNAV RWY 15. LNDG AND DEPG RWYS 19, 15, 22.  MULTIPLE APPROACHES BEING CONDUCTED TO INTERSECTING RWY. USE CAUTION.",
+                    "Notams": "RNP APCH ON REQUEST. READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY. DO NOT ENTER PROHIBITED AIRSPACE NORTH OF ARPT.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "NotamDefinitions": [],
+            "TransitionLevels": []
+        },
+        {
+            "Name": "Joint Base Andrews",
+            "Identifier": "KADW",
+            "Contractions": [],
+            "AtisFrequency": 33675,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": false,
+                "MagneticDegrees": 0
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+            "Presets": [
+                {
+                    "Name": "NORTH",
+                    "AirportConditions": "ARRIVALS EXPECT ILS OR VISUAL RWY 1R, RWY 1L. DEPTG RWY 1R, RWY 1L. SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. ",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY. ",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "SOUTH",
+                    "AirportConditions": "ARRIVALS EXPECT ILS OR VISUAL RWY 19R, RWY 19L. DEPTG RWY 19R, RWY 19L. SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. ",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY. ",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "NotamDefinitions": [],
+            "TransitionLevels": []
+        },
+        {
+            "Name": "Washington Dulles",
+            "Identifier": "KIAD",
+            "Contractions": [],
+            "AtisFrequency": 34850,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": false,
+                "MagneticDegrees": 0
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+            "Presets": [
+                {
+                    "Name": "NORTH 30",
+                    "AirportConditions": "ARRIVALS EXPECT ILS OR VISUAL RWY 1C, RWY 1R. DEPTG RWY 30, RWY 1L. SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. ",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY.  RAMP IS NONMOVEMENT AREA, CALL FOR TAXI ON WEST OR EAST SIDE OF RAMP.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "SOUTH 30",
+                    "AirportConditions": "ARRIVALS EXPECT ILS OR VISUAL RWY 19C, RWY 19R. DEPTG RWY 30, RWY 19L. SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS.",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY.  RAMP IS NONMOVEMENT AREA, CALL FOR TAXI ON WEST OR EAST SIDE OF RAMP.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "30 OPS",
+                    "AirportConditions": "ARRIVALS EXPECT ILS 1R CIRCLE TO LAND 30. DEPTG RWY 30. SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. ",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND ALL HOLD SHORT INSTRUCTIONS. OPERATING MODE C ON ALL TAXIWAY AND RUNWAY.  RAMP IS NONMOVEMENT AREA, CALL FOR TAXI ON WEST OR EAST SIDE OF RAMP.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "NotamDefinitions": [],
+            "TransitionLevels": []
+        },
+        {
+            "Name": "Baltimore",
+            "Identifier": "KBWI",
+            "Contractions": [],
+            "AtisFrequency": 27800,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": false,
+                "MagneticDegrees": 0
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+            "Presets": [
+                {
+                    "Name": "EAST",
+                    "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 10, RWY 15L. DEPG RWYS 15R, 15L",
+                    "Notams": "SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. READBACK ALL RWY ASSIGNMENTS AND READBACK ALL HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "WEST",
+                    "AirportConditions": "ARR ACFT EXP VISUAL OR ILS  APCH RWY 33L, RWY 33R. DEPG RWYS 28, 33R. ",
+                    "Notams": "SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. READBACK ALL RWY ASSIGNMENTS AND READBACK ALL HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT AND AIRCRAFT TYPE.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "NotamDefinitions": [],
+            "TransitionLevels": []
+        },
+        {
+            "Name": "Raleigh Durham",
+            "Identifier": "KRDU",
+            "Contractions": [],
+            "AtisFrequency": 23800,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": false,
+                "MagneticDegrees": 0
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+            "Presets": [
+                {
+                    "Name": "EAST",
+                    "AirportConditions": "EXPECT VISUAL APCH RWY 5L, 5R, DEPARTING RWY 5L, 5R. ",
+                    "Notams": "SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. ADVISE ATC, RWY 14/32 ON REQUEST. READBACK ALL RWY ASSIGNMENTS AND READBACK ALL HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. ",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "WEST",
+                    "AirportConditions": "EXPECT VISUAL APCH RWY 23L, 23R. DEPARTING RWY 23L, 23R.",
+                    "Notams": "SIMUL APCHS ARE BEING CONDUCTED TO PARL RWYS. ADVISE ATC, RWY 14/32 ON REQUEST. READBACK ALL RWY ASSIGNMENTS AND READBACK ALL HOLD SHORT INSTRUCTIONS. VFR AIRCRAFT SAY DIRECTION OF FLIGHT.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "NotamDefinitions": [],
+            "TransitionLevels": []
+        },
+        {
+            "Name": "Norfolk",
+            "Identifier": "KORF",
+            "Contractions": [],
+            "AtisFrequency": 27150,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": false,
+                "MagneticDegrees": 0
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+            "Presets": [
+                {
+                    "Name": "EAST VMC",
+                    "AirportConditions": "ARR ACFT EXP VISUAL APCH RWY 5, DEPARTING RWY 5.",
+                    "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "EAST IMC",
+                    "AirportConditions": "ARR ACFT EXP ILS APCH RWY 5, DEPARTING RWY 5.",
+                    "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "WEST VMC",
+                    "AirportConditions": "ARR ACFT EXP VISUAL APCH RWY 23, DEPARTING RWY 23.",
+                    "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "WEST IMC",
+                    "AirportConditions": "ARR ACFT EXP ILS APCH RWY 23, DEPARTING RWY 23.",
+                    "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 14/32 AVAIL UPON REQUEST.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "NotamDefinitions": [],
+            "TransitionLevels": []
+        },
+        {
+            "Name": "Richmond",
+            "Identifier": "KRIC",
+            "Contractions": [],
+            "AtisFrequency": 19150,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": false,
+                "MagneticDegrees": 0
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+            "Presets": [
+                {
+                    "Name": "NORTH VMC",
+                    "AirportConditions": "ARR ACFT EXP VISUAL APCH RWY 34. DEPG RWY 2.",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "NORTH IMC",
+                    "AirportConditions": "ARR ACFT EXP ILS APCH RWY 34, RWY 2. DEPG RWY 2.",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "SOUTH VMC",
+                    "AirportConditions": "ARR ACFT EXP VISUAL APCH RWY 16. DEPG RWY 20.",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                },
+                {
+                    "Name": "SOUTH IMC",
+                    "AirportConditions": "ARR ACFT EXP ILS APCH RWY 16. DEPG RWY 20.",
+                    "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "NotamDefinitions": [],
+            "TransitionLevels": []
+        },
+		{
+			  "Name": "Roanoke",
+			  "Identifier": "KROA",
+			  "Contractions": [],
+			  "AtisFrequency": 32375,
+			  "ObservationTime": {
+				"Enabled": false,
+				"Time": 0
+			  },
+			  "MagneticVariation": {
+				"Enabled": false,
+				"MagneticDegrees": 0
+			  },
+			  "AtisVoice": {
+				"UseTextToSpeech": true,
+				"Voice": "Default"
+			  },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+			  "Presets": [
+				{
+				  "Name": "RWY 6",
+				  "AirportConditions": "ARR ACFT EXP VISUAL OR LDA APCH RWY 6. DEPG RWY 16.",
+				  "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "RWY 16",
+				  "AirportConditions": "ARR ACFT EXP VISUAL APCH RWY 24. DEPG RWY 16.",
+				  "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "RWY 24",
+				  "AirportConditions": "ARR ACFT EXP RNAV/GPS APCH RWY 24. DEPG RWY 24.",
+				  "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "LANDING 34 --- DEPARTING 6",
+				  "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 34. DEPG RWY 6.",
+				  "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "LANDING 34 --- DEPARTING 24",
+				  "AirportConditions": "ARR ACFT EXP ILS APCH RWY 34. DEPG RWY 24.",
+				  "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				}
+			  ],
+			  "AirportConditionDefinitions": [],
+			  "NotamDefinitions": [],
+			  "TransitionLevels": []
+		},
+		{
+			  "Name": "Wilmington",
+			  "Identifier": "KILM",
+			  "Contractions": [],
+			  "AtisFrequency": 24975,
+			  "ObservationTime": {
+				"Enabled": false,
+				"Time": 0
+			  },
+			  "MagneticVariation": {
+				"Enabled": false,
+				"MagneticDegrees": 0
+			  },
+			  "AtisVoice": {
+				"UseTextToSpeech": true,
+				"Voice": "Default"
+			  },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+			  "Presets": [
+				{
+				  "Name": "6 VMC",
+				  "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 6.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "6 IMC",
+				  "AirportConditions": "ILS Z RWY 6 APPROACH IN USE. LANDING AND DEPARTING RWY 6.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "17 VMC",
+				  "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 17.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "17 IMC",
+				  "AirportConditions": "RNAV RWY 17 APPROACH IN USE. LANDING AND DEPARTING RWY 17.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "24 VMC",
+				  "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 24.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "24 IMC",
+				  "AirportConditions": "ILS Z RWY 24 APPROACH IN USE. LANDING AND DEPARTING RWY 24.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+								{
+				  "Name": "35 VMC",
+				  "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 35.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "35 IMC",
+				  "AirportConditions": "ILS Z RWY 35 APPROACH IN USE. LANDING AND DEPARTING RWY 35.",
+				  "Notams": "READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				}
+			  ],
+			  "AirportConditionDefinitions": [],
+			  "NotamDefinitions": [],
+			  "TransitionLevels": []
+		},
+		{
+			  "Name": "Fayetteville",
+			  "Identifier": "KFAY",
+			  "Contractions": [],
+			  "AtisFrequency": 21250,
+			  "ObservationTime": {
+				"Enabled": false,
+				"Time": 0
+			  },
+			  "MagneticVariation": {
+				"Enabled": false,
+				"MagneticDegrees": 0
+			  },
+			  "AtisVoice": {
+				"UseTextToSpeech": true,
+				"Voice": "Default"
+			  },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+			  "Presets": [
+				{
+				  "Name": "NORTH VMC",
+				  "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 4. DEPG RWY 4. ",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.RWY 28/10 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "NORTH IMC",
+				  "AirportConditions": "ARRIVALS EXPECT ILS APCH RWY 4. DEPG RWY 4.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.RWY 28/10 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "SOUTH VMC",
+				  "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 22. DEPG RWY 22. ",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.RWY 28/10 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "SOUTH IMC",
+				  "AirportConditions": "ARRIVALS EXPECT RNAV APCH RWY 22. DEPG RWY 22. ",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.RWY 28/10 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				}
+			  ],
+			  "AirportConditionDefinitions": [],
+			  "NotamDefinitions": [],
+			  "TransitionLevels": []
+		},
+		{
+			  "Name": "Atlantic City",
+			  "Identifier": "KACY",
+			  "Contractions": [],
+			  "AtisFrequency": 25725,
+			  "ObservationTime": {
+				"Enabled": false,
+				"Time": 0
+			  },
+			  "MagneticVariation": {
+				"Enabled": false,
+				"MagneticDegrees": 0
+			  },
+			  "AtisVoice": {
+				"UseTextToSpeech": true,
+				"Voice": "Default"
+			  },
+            "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+			  "Presets": [
+				{
+				  "Name": "31 VMC",
+				  "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 31. DEPG RWY 31.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 4/22 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "31 IMC",
+				  "AirportConditions": "ARRIVALS EXPECT ILS APCH RWY 31. DEPG RWY 31.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 4/22 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "13 VMC",
+				  "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 13. DEPG RWY 13.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 4/22 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "13 IMC",
+				  "AirportConditions": "ARRIVALS EXPECT ILS Z APCH RWY 13. DEPG RWY 13.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 4/22 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},				{
+				  "Name": "22 VMC",
+				  "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 22. DEPG RWY 22.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 13/31 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "22 IMC",
+				  "AirportConditions": "ARRIVALS EXPECT RNAV APCH RWY 22. DEPG RWY 22.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.RWY 13/31 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},				{
+				  "Name": "4 VMC",
+				  "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 4. DEPG RWY 4.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 13/31 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				},
+				{
+				  "Name": "4 IMC",
+				  "AirportConditions": "ARRIVALS EXPECT RNAV APCH RWY 4. DEPG RWY 4.",
+				  "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS. RWY 13/31 AVAIL UPON REQUEST.",
+				  "ArbitraryText": null,
+				  "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+				}
+			  ],
+			  "AirportConditionDefinitions": [],
+			  "NotamDefinitions": [],
+			  "TransitionLevels": []
+		}
+    ]
+}
