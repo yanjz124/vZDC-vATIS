@@ -1,5 +1,5 @@
 {
-  "Name": "ORF TRACON",
+  "Name": "ORF TRACON - IDS",
   "Composites": [
     {
       "Name": "Norfolk",
@@ -53,7 +53,7 @@
       "NotamDefinitions": [],
       "TransitionLevels": []
   },
-    {
+  {
       "Name": "Newport News",
       "Identifier": "KPHF",
       "Contractions": [],

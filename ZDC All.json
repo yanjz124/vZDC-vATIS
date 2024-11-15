@@ -1,5 +1,5 @@
 {
-    "Name": "ZDC - IDS",
+    "Name": "ZDC All - IDS",
     "Composites": [
         {
             "Name": "Washington Reagan",
@@ -315,7 +315,83 @@
             "AirportConditionDefinitions": [],
             "NotamDefinitions": [],
             "TransitionLevels": []
+    },
+    {
+      "Name": "Newport News",
+      "Identifier": "KPHF",
+      "Contractions": [],
+      "AtisFrequency": 18000,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+        {
+          "Name": "NORTH",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 7. DEPG RWY 2.",
+          "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.  OPERATE MODE CHARLIE ON ALL RWYS AND TWYS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
         },
+        {
+          "Name": "SOUTH",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 25. DEPG RWY 20.",
+          "Notams": "READBACK ALL HOLDSHORT INSTRUCTIONS.  OPERATE MODE CHARLIE ON ALL RWYS AND TWYS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Norfolk Chambers",
+      "Identifier": "KNGU",
+      "Contractions": [],
+      "AtisFrequency": 18425,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+        {
+          "Name": "EAST",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR ILS APCH RWY 10. DEPG RWY 10.",
+          "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+        },
+        {
+          "Name": "WEST",
+          "AirportConditions": "ARR ACFT EXP VISUAL OR RNAV APCH RWY 28. DEPG RWY 28.",
+          "Notams": "READBACK ALL RWY ASSIGNMENTS AND READ BACK ALL HOLD SHORT INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
 		{
 			  "Name": "Roanoke",
 			  "Identifier": "KROA",
@@ -455,6 +531,57 @@
 			  "NotamDefinitions": [],
 			  "TransitionLevels": []
 		},
+    {
+      "Name": "Albert J Ellis",
+      "Identifier": "KOAJ",
+      "Contractions": [],
+      "AtisFrequency": 24475,
+      "ObservationTime": {
+      "Enabled": false,
+      "Time": 0
+      },
+      "MagneticVariation": {
+      "Enabled": false,
+      "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+      "UseTextToSpeech": true,
+      "Voice": "Default"
+      },
+          "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+      {
+        "Name": "5 VMC",
+        "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 5.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },
+      {
+        "Name": "5 IMC",
+        "AirportConditions": "ILS RWY 5 APPROACH IN USE. LANDING AND DEPARTING RWY 5.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },{
+        "Name": "23 VMC",
+        "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 23.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },
+      {
+        "Name": "23 IMC",
+        "AirportConditions": "RNAV RWY 23 APPROACH IN USE. LANDING AND DEPARTING RWY 23.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
 		{
 			  "Name": "Fayetteville",
 			  "Identifier": "KFAY",
@@ -507,6 +634,108 @@
 			  "NotamDefinitions": [],
 			  "TransitionLevels": []
 		},
+    {
+      "Name": "Pope AAF",
+      "Identifier": "KPOB",
+      "Contractions": [],
+      "AtisFrequency": 32300,
+      "ObservationTime": {
+      "Enabled": false,
+      "Time": 0
+      },
+      "MagneticVariation": {
+      "Enabled": false,
+      "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+      "UseTextToSpeech": true,
+      "Voice": "Default"
+      },
+          "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+      {
+        "Name": "5 VMC",
+        "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 5.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },
+      {
+        "Name": "5 IMC",
+        "AirportConditions": "ILS RWY 23 APPROACH CIRCLE TO LAND RWY 5 IN USE. LANDING AND DEPARTING RWY 5.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },{
+        "Name": "23 VMC",
+        "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 23.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },
+      {
+        "Name": "23 IMC",
+        "AirportConditions": "ILS RWY 23 APPROACH IN USE. LANDING AND DEPARTING RWY 23.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Simmons AAF",
+      "Identifier": "KFBG",
+      "Contractions": [],
+      "AtisFrequency": 39250,
+      "ObservationTime": {
+      "Enabled": false,
+      "Time": 0
+      },
+      "MagneticVariation": {
+      "Enabled": false,
+      "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+      "UseTextToSpeech": true,
+      "Voice": "Default"
+      },
+          "IDSEndpoint": "https://ids-websocket.vzdc.org/api/vatis/flow",
+      "Presets": [
+      {
+        "Name": "9 VMC",
+        "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 9.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },
+      {
+        "Name": " IMC",
+        "AirportConditions": "RNAV RWY 9 APPROACH IN USE. LANDING AND DEPARTING RWY 9.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },{
+        "Name": "27 VMC",
+        "AirportConditions": "VISUAL APPROACH IN USE. LANDING AND DEPARTING RWY 27.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      },
+      {
+        "Name": "27 IMC",
+        "AirportConditions": "RNAV RWY 27 APPROACH IN USE. LANDING AND DEPARTING RWY 27.",
+        "Notams": null,
+        "ArbitraryText": null,
+        "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]."
+      }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
 		{
 			  "Name": "Atlantic City",
 			  "Identifier": "KACY",
